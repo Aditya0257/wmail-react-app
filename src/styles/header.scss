@@ -1,0 +1,60 @@
+.header{
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:wght@100&display=swap');
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+
+    .header__left{
+        display: flex;
+        align-items: center;
+
+        img{
+            object-fit: contain;
+            height: 30px;
+            margin-left: 5px;
+        }
+
+        h4{
+            font-family: 'Dancing Script', cursive;
+            margin-left: 10px;
+            color: gray;
+            letter-spacing: 1.1px;
+            font-weight: 300;
+            font-size: 21px;
+        }
+        
+    }
+
+    .header__middle{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        flex: 0.7;
+        border-radius: 5px;
+        background-color: whitesmoke;
+
+        .MuiSvgIcon-root{
+            color: gray;
+        }
+
+        input{
+            width: 100%;
+            padding: 5px;
+            border: none;
+            outline: none;
+            font-size: medium;
+            background-color: transparent;
+        }
+    }
+
+    .header__right{
+        display: flex;
+        align-items: center;
+        padding-right: 20px;
+
+        .header__avatar{
+            cursor: pointer;
+        }
+    }
+}
